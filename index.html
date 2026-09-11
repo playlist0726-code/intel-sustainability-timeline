@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="An interactive timeline exploring Intel's technology milestones and sustainability journey from 1968 to 2024.">
+    <meta name="theme-color" content="#0068b5">
+    <title>Intel | Sustainability Through the Ages</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#timeline">Skip to the timeline</a>
+
+    <header class="hero">
+      <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Intel sustainability timeline home">
+          <img src="intel-logo.svg" alt="Intel">
+        </a>
+        <a class="nav-link" href="#timeline">Explore the journey <span aria-hidden="true">↓</span></a>
+      </nav>
+
+      <div class="hero-content" id="top">
+        <p class="eyebrow"><span></span> Innovation with purpose</p>
+        <h1>Sustainability<br><em>through the ages.</em></h1>
+        <p class="hero-copy">
+          Explore how decades of semiconductor innovation grew into a broader commitment
+          to climate action, renewable electricity, responsible manufacturing, and collective progress.
+        </p>
+        <a class="hero-cta" href="#timeline">Start the timeline <span aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="hero-stats" aria-label="Timeline overview">
+        <div><strong>56</strong><span>years explored</span></div>
+        <div><strong>09</strong><span>key milestones</span></div>
+        <div><strong>2040</strong><span>net-zero target</span></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="timeline-section" id="timeline" aria-labelledby="timeline-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow dark"><span></span> A journey of progress</p>
+            <h2 id="timeline-title">From silicon breakthroughs<br>to sustainable impact.</h2>
+          </div>
+          <p class="section-intro">
+            On a larger screen, scroll sideways and hover over a card. On touch devices,
+            the timeline stacks vertically - tap a card's button to reveal the story.
+          </p>
+        </div>
+
+        <div class="timeline-shell">
+          <div class="timeline-track" role="list" aria-label="Intel history and sustainability milestones">
+            <article class="milestone" role="listitem" tabindex="0">
+              <div class="card-image">
+                <img src="1968-foundation.jpg" alt="A 1960s semiconductor laboratory with engineers and a silicon wafer" width="1200" height="800">
+                <span class="card-index">01</span>
+              </div>
+              <div class="card-body">
+                <p class="year">1968</p>
+                <h3>Intel Founded</h3>
+                <p class="card-kicker">The foundation of an innovation era</p>
+                <div class="card-details" id="details-1968">
+                  <p>Robert Noyce and Gordon Moore rename the newly formed company NM Electronics to Intel Corporation, laying the foundation for decades of technological innovation.</p>
+                </div>
+                <button class="card-toggle" type="button" aria-expanded="false" aria-controls="details-1968"><span>Explore milestone</span><b aria-hidden="true">+</b></button>
+              </div>
+            </article>
+
+            <article class="milestone" role="listitem" tabindex="0">
+              <div class="card-image">
+                <img src="1971-microprocessor.jpg" alt="A gold microprocessor glowing on a circuit board" width="1200" height="800" loading="lazy">
+                <span class="card-index">02</span>
+              </div>
+              <div class="card-body">
+                <p class="year">1971</p>
+                <h3>First Microprocessor</h3>
+                <p class="card-kicker">Computing power moves onto one chip</p>
+                <div class="card-details" id="details-1971">
+                  <p>Intel debuts the 4004, the world's first commercial microprocessor, igniting the microprocessor revolution and propelling the future of computing devices.</p>
+                </div>
+                <button class="card-toggle" type="button" aria-expanded="false" aria-controls="details-1971"><span>Explore milestone</span><b aria-hidden="true">+</b></button>
+              </div>
+            </article>
+
+            <article class="milestone" role="listitem" tabindex="0">
+              <div class="card-image">
+                <img src="1978-architecture.jpg" alt="An abstract processor core connected by bright architectural data paths" width="1200" height="800" loading="lazy">
+                <span class="card-index">03</span>
+              </div>
+              <div class="card-body">
+                <p class="year">1978</p>
+                <h3>8086 Processor</h3>
+                <p class="card-kicker">A lasting architecture takes shape</p>
+                <div class="card-details" id="details-1978">
+                  <p>Launch of the 8086 processor establishes the x86 architecture that drives countless PCs and servers in the modern era.</p>
+                </div>
+                <button class="card-toggle" type="button" aria-expanded="false" aria-controls="details-1978"><span>Explore milestone</span><b aria-hidden="true">+</b></button>
+              </div>
+            </article>
+
+            <article class="milestone" role="listitem" tabindex="0">
+              <div class="card-image">
+                <img src="1985-computing.jpg" alt="A period-inspired personal computer surrounded by multitasking windows" width="1200" height="800" loading="lazy">
+                <span class="card-index">04</span>
+              </div>
+              <div class="card-body">
+                <p class="year">1985</p>
+                <h3>386 Processor</h3>
+                <p class="card-kicker">Performance enters a 32-bit era</p>
+                <div class="card-details" id="details-1985">
+                  <p>Intel introduces the 386 processor with 32-bit architecture, ushering in a new era of performance and multitasking for personal computers.</p>
+                </div>
+                <button class="card-toggle" type="button" aria-expanded="false" aria-controls="details-1985"><span>Explore milestone</span><b aria-hidden="true">+</b></button>
+              </div>
+            </article>
+
+            <article class="milestone milestone-turn" role="listitem" tabindex="0">
+              <div class="card-image">
+                <img src="2006-emissions.jpg" alt="A semiconductor campus transitioning from high emissions toward clean operations" width="1200" height="800" loading="lazy">
+                <span class="card-index">05</span>
+              </div>
+              <div class="card-body">
+                <p class="year">2006</p>
+                <h3>Peak GHG Emissions</h3>
+                <p class="card-kicker">A challenge becomes a turning point</p>
+                <div class="card-details" id="details-2006">
+                  <p>This year marks Intel's highest annual operational greenhouse gas emissions. Intel later invests in chemical abatement, renewable energy, and efficient manufacturing to reverse the trend.</p>
+                </div>
+                <button class="card-toggle" type="button" aria-expanded="false" aria-controls="details-2006"><span>Explore milestone</span><b aria-hidden="true">+</b></button>
+              </div>
+            </article>
+
+            <article class="milestone milestone-green" role="listitem" tabindex="0">
+              <div class="card-image">
+                <img src="2020-rise.jpg" alt="A diverse team examining a wafer in a clean-energy research laboratory" width="1200" height="800" loading="lazy">
+                <span class="card-index">06</span>
+              </div>
+              <div class="card-body">
+                <p class="year">2020</p>
+                <h3>RISE Strategy</h3>
+                <p class="card-kicker">Responsibility scales with innovation</p>
+                <div class="card-details" id="details-2020">
+                  <p>Intel launches its RISE strategy and 2030 goals, aiming to drive industry-wide progress on climate action, water stewardship, and waste reduction.</p>
+                </div>
+                <button class="card-toggle" type="button" aria-expanded="false" aria-controls="details-2020"><span>Explore milestone</span><b aria-hidden="true">+</b></button>
+              </div>
+            </article>
+
+            <article class="milestone milestone-green" role="listitem" tabindex="0">
+              <div class="card-image">
+                <img src="2022-net-zero.jpg" alt="A circular semiconductor facility powered by wind, solar, and clean water systems" width="1200" height="800" loading="lazy">
+                <span class="card-index">07</span>
+              </div>
+              <div class="card-body">
+                <p class="year">2022</p>
+                <h3>Net-Zero by 2040</h3>
+                <p class="card-kicker">A global operational commitment</p>
+                <div class="card-details" id="details-2022">
+                  <p>Intel announces its commitment to achieve net-zero Scope 1 and 2 greenhouse gas emissions across global operations by 2040.</p>
+                </div>
+                <button class="card-toggle" type="button" aria-expanded="false" aria-controls="details-2022"><span>Explore milestone</span><b aria-hidden="true">+</b></button>
+              </div>
+            </article>
+
+            <article class="milestone milestone-green" role="listitem" tabindex="0">
+              <div class="card-image">
+                <img src="2023-renewable.jpg" alt="A glowing global clean-energy network connecting a chip factory with wind, solar, and hydro power" width="1200" height="800" loading="lazy">
+                <span class="card-index">08</span>
+              </div>
+              <div class="card-body">
+                <p class="year">2023</p>
+                <h3>Renewable Electricity</h3>
+                <p class="card-kicker">Clean power reaches a global scale</p>
+                <div class="card-details" id="details-2023">
+                  <p>The company achieves 99% renewable electricity usage worldwide, lowering operational carbon emissions and advancing long-term sustainability goals.</p>
+                </div>
+                <button class="card-toggle" type="button" aria-expanded="false" aria-controls="details-2023"><span>Explore milestone</span><b aria-hidden="true">+</b></button>
+              </div>
+            </article>
+
+            <article class="milestone milestone-green" role="listitem" tabindex="0">
+              <div class="card-image">
+                <img src="2024-summit.jpg" alt="Industry leaders and engineers collaborating around a wafer and living tree" width="1200" height="800" loading="lazy">
+                <span class="card-index">09</span>
+              </div>
+              <div class="card-body">
+                <p class="year">2024</p>
+                <h3>Sustainability Summit</h3>
+                <p class="card-kicker">Progress becomes a shared mission</p>
+                <div class="card-details" id="details-2024">
+                  <p>Intel hosts its first Sustainability Summit, bringing suppliers, government officials, and industry leaders together to advance sustainable semiconductor manufacturing.</p>
+                </div>
+                <button class="card-toggle" type="button" aria-expanded="false" aria-controls="details-2024"><span>Explore milestone</span><b aria-hidden="true">+</b></button>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="timeline-controls" aria-hidden="true">
+          <span>1968</span><i></i><span>2024</span>
+          <p>Scroll to travel through the timeline</p>
+        </div>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <p class="eyebrow"><span></span> The work continues</p>
+        <h2 id="closing-title">Better technology.<br>Built with a lighter footprint.</h2>
+        <p>Innovation is not only about what technology can do - it is also about how responsibly it is made and how widely its benefits are shared.</p>
+        <a href="#timeline">Revisit the milestones <span aria-hidden="true">↑</span></a>
+      </section>
+    </main>
+
+    <footer>
+      <p>Student project by Junsu (Michael) Kim</p>
+      <p>Custom AI-generated milestone artwork · Responsive HTML &amp; CSS</p>
+    </footer>
+  </body>
+</html>
