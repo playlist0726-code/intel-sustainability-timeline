@@ -4,4 +4,4 @@ A responsive, interactive timeline created for Web Design Project 2. The project
 
 ## Live site
 
-https://playlist0726-code.github.io/portfolio-website/intel-sustainability-timeline/
+https://playlist0726-code.github.io/intel-sustainability-timeline/
