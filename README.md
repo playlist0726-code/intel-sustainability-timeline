@@ -1,3 +1,11 @@
+## Portfolio context
+
+**[Live educational demo](https://playlist0726-code.github.io/intel-sustainability-timeline/)** · [Project index](https://playlist0726-code.github.io/projects/) · [Portfolio](https://playlist0726-code.github.io/)
+
+A Global Career Accelerator HTML/CSS/JavaScript study in responsive timelines, sustainability information, and localization/direction controls. Developed with AI-assisted coding by Junsu (Michael) Kim. Intel branding and source material are used in an educational exercise; this is not Intel employment or commissioned work.
+
+---
+
 # Intel Sustainability Timeline and Global Impact
 
 A responsive, interactive website created for Web Design Projects 2 and 3. The original Flexbox timeline remains intact and is expanded with Bootstrap 5.3.8, an RTL-aware language preview, a responsive three-column impact section, an accessible newsletter form, a Bootstrap accordion, and a structured footer.
